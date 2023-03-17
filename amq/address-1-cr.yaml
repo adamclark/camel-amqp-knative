@@ -1,0 +1,8 @@
+apiVersion: broker.amq.io/v1beta1
+kind: ActiveMQArtemisAddress
+metadata:
+  name: testaddress1
+spec:
+  addressName: testAddress1
+  queueName: testQueue1
+  routingType: anycast
